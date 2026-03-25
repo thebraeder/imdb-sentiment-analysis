@@ -1,32 +1,38 @@
 # IMDB Sentiment Analysis
 
-This project explores sentiment analysis on IMDB movie reviews using natural language processing and machine learning techniques.
+A machine learning project for classifying IMDB movie reviews as **positive** or **negative** using natural language processing techniques.
+
+## About the Project
+
+This project explores sentiment analysis on a dataset of IMDB movie reviews.  
+The task is formulated as a binary text classification problem, where the model predicts whether a review expresses a positive or negative opinion.
 
 ## Project Goal
 
-The main objective of this project is to develop a model that can automatically classify movie reviews as positive or negative.
+The main goal is to build an effective baseline machine learning model for sentiment classification based on review text.
 
 ## Dataset
 
-The dataset consists of IMDB movie reviews labeled according to their sentiment:
-- positive
-- negative
+The dataset consists of:
+- Text reviews from IMDB
+- Sentiment labels for each review
+- Two target classes: positive and negative
 
-## Workflow
+## Methodology
 
-- Load and inspect the dataset
-- Clean and preprocess the text data
-- Convert text into numerical features using TF-IDF
-- Train classification models
-- Evaluate model performance on the test set
+The workflow of the project includes:
+- Loading and exploring the data
+- Cleaning and preparing text data
+- Converting text into numerical features with TF-IDF
+- Training classification models
+- Evaluating model quality on the test set
 
-## Result
+## Model Performance
 
-The final model achieved an accuracy of 0.89 on the test set, demonstrating good performance in sentiment classification.
+The final model achieved an accuracy of 0.89 on the test dataset, demonstrating solid performance in sentiment prediction.
 
-## Tools and Libraries
+## Tech Stack
 
-This project was implemented using:
 - Python
 - Pandas
 - NumPy
@@ -35,11 +41,11 @@ This project was implemented using:
 - Seaborn
 - Jupyter Notebook
 
-## Repository Structure
+## Project Files
 
-- `IMDB_model.ipynb` — main notebook with analysis and modeling
-- `README.md` — project overview
+- `IMDB_model.ipynb` — complete notebook with all project steps
+- `README.md` — project documentation
 
-## Conclusion
+## Final Notes
 
-This project demonstrates that traditional NLP methods and machine learning algorithms can serve as an effective baseline for sentiment analysis tasks.
+The results demonstrate that traditional NLP preprocessing and classical machine learning algorithms can serve as an effective solution for text sentiment analysis.
